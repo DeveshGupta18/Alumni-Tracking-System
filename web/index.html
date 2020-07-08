@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Alumni</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+<style>
+.imgage{
+  border-radius: 50%;
+}
+body{
+    margin: 0;
+    font-family: Helvetica,sans-serif,Arial;
+background-image: url('https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+  background-size: cover;
+  }
+  .header {
+  overflow: hidden;
+  opacity: 0.5;
+ 
+  padding: 12px 10px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+  color: black;
+  text-align: center;
+}
+.neeche {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-size: 30px;
+  font-family: Comic Sans MS;
+  text-align: center;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+ 
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.img1{
+  border-radius: 20%;
+  margin-left: 100px;
+ 
+}
+.img2{
+  border-radius: 20%;
+  margin-left: 100px;
+}
+.img3{
+  border-radius: 20%;
+  margin-left: 100px;
+}
+.round2 {
+  border: 7px solid buttonshadow;
+  border-radius: 15px;
+}
+</style>
+</head>
+<body>
+    <div class="round2">
+   <div class="header">
+       
+  <a href="#default" class="logo">Alumni Tracking System</a>
+  <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+    <a href="registeralumni.jsp">Alumni</a>
+    <a href="registerclg.jsp">College</a>
+    <a href="dlogin.jsp">Directorate</a>
+  </div>
+       </div>
+</div>
+   
+    <img class="img1" src="https://i.ibb.co/h1w8DrM/goa.jpg" alt="Avatar" style="width:400px ;height :300px ">
+    <img class="img2" src="https://i.ibb.co/phRNGKr/alumnilogo.png" alt="Avatar" style="width:400px">
+    <img class="img3" src="https://i.ibb.co/718KJxZ/mitrc.jpg" alt="Avatar" style="width:400px;height :300px ">
+     <div class="neeche">This is Web based application which will keep the track of the Alumni. Alumni are those students who are passing
+     out. Here Alumni can register/login/update their details and can participate in the events. Colleges will verify and authenticate the registered Alumni.
+     Directorate can monitor all the colleges and alumni's registered based on criteria such as colleges, year, etc.</div>
+<div class="footer">
+  <p>Copyright 2020 by NullByte. All rights reserved.</p>
+</div>
+   
+
+
+</body>
+</html>

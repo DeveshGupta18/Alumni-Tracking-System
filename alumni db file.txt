@@ -1,0 +1,12 @@
+use alumni;
+create table reg_alumni(id integer, aname varchar(30), gender varchar(2), clgname varchar(100), branch varchar(10), batch varchar(15), rollno varchar(10), profession varchar(50), detail varchar(100), post varchar(50), mob varchar(10), email varchar(30), address varchar(100));
+desc reg_alumni;
+create table reg_clg(id integer, clgname varchar(50), address varchar(50), mob varchar(10), email varchar(30), director varchar(20));
+desc reg_clg;
+create table event_det(id integer, ename varchar(30), edate varchar(15), detail varchar(200), cid integer);
+desc event_det;
+create table reg_event(aid integer, cid integer, sname varchar(20), ename varchar(30), eid integer);
+desc reg_event;
+create table notice_det(id integer, cid integer, nname varchar(30), detail varchar(300), ndate varchar(15));
+desc notice_det;
+show tables;
