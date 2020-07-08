@@ -48,7 +48,7 @@ body {
         
         
         String host="smtp.gmail.com",  port="587";
-            final String userName="jobgetset@gmail.com",password= "asdfghjkl1!", toAddress=request.getParameter("email");
+            final String userName="jobgetset@email.com",password= "pass", toAddress=request.getParameter("email");
                     String subject = "Sign up related", message= "please verfy Alumni";
                        
             
