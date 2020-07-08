@@ -232,7 +232,7 @@ background-image: url('https://images.unsplash.com/photo-1508615039623-a25605d2b
         
         
         String host="smtp.gmail.com",  port="587";
-            final String userName="jobgetset@gmail.com",password= "asdfghjkl1!", toAddress=request.getParameter("mail");
+            final String userName="jobgetset@email.com",password= "pass", toAddress=request.getParameter("mail");
                     String subject = request.getParameter("sub"), message= request.getParameter("mess");
    
                 
